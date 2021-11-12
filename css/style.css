@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+}
+
+/* style */
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.margin {
+  margin: 20px 0;
+}
+
+/* header */
+
+header {
+  height: 100px;
+  background-color: pink;
+}
+
+/* main */
+
+.spotlight {
+  height: 400px;
+  background-color: goldenrod;
+}
+
+/* side bar */
+
+.bar {
+  height: 100px;
+  background-color: lightskyblue;
+}
+
+.side-left {
+  height: 500px;
+  width: 20%;
+  background-color: lightskyblue;
+  float: left;
+}
+
+.side-right {
+  height: 500px;
+  width: 20%;
+  background-color: lightskyblue;
+  float: right;
+}
+
+.middle-box {
+  height: 500px;
+  width: calc(60% - 40px);
+  background-color: lightskyblue;
+  float: left;
+  margin: 0 20px;
+}
+
+/* footer */
+footer {
+  height: 100px;
+  background-color: purple;
+}
+
+/* clearfix */
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
